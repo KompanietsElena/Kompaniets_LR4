@@ -1,0 +1,26 @@
+body{
+    background:LemonChiffon;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+.form1{
+    width: 100px;
+    height: 100px;
+    background: Crimson;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 2;
+    
+}
+
+.form2{
+    width: 420px;
+    height: 220px;
+    background: White;
+    border: 2px solid Silver;
+    position: absolute;
+    z-index: 1;
+}
